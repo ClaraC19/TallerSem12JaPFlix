@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 lista.innerHTML = ""; // Limpiar el contenedor de películas
                 return; // Salir de la función
             }
+
+            lista.innerHTML = "" //Limpiar la lista para una nueva búsqueda
                     
             // Filtrar películas que coincidan con la búsqueda
             const peliculasFiltradas = listaPelis.filter(pelicula => 
